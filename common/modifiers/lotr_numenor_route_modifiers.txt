@@ -1,0 +1,72 @@
+﻿# Trade Routes
+#Men i-Meneltarma - Batan an-Meneltarma
+men_meneltarma_province_modifier = {
+	icon = economy_positive
+	monthly_income = 0.1
+	development_growth = 0.1
+}
+
+men_meneltarma_income_character_modifier_1 = {
+	icon = economy_positive
+	monthly_income = 1
+}
+
+men_meneltarma_income_character_modifier_2 = {
+	icon = economy_positive
+	monthly_income = 2
+}
+
+men_meneltarma_income_character_modifier_3 = {
+	icon = economy_positive
+	monthly_income = 3
+}
+
+men_meneltarma_income_character_modifier_4 = {
+	icon = economy_positive
+	monthly_income = 4
+}
+
+men_meneltarma_income_character_modifier_5 = {
+	icon = economy_positive
+	monthly_income = 5
+}
+
+men_meneltarma_income_character_modifier_6 = {
+	icon = economy_positive
+	monthly_income = 6
+}
+
+men_meneltarma_income_character_modifier_7 = {
+	icon = economy_positive
+	monthly_income = 7
+}
+
+men_meneltarma_income_character_modifier_8 = {
+	icon = economy_positive
+	monthly_income = 8
+}
+
+men_meneltarma_income_character_modifier_9 = {
+	icon = economy_positive
+	monthly_income = 9
+}
+
+men_meneltarma_income_character_modifier_10 = {
+	icon = economy_positive
+	monthly_income = 10
+}
+
+men_meneltarma_income_character_modifier_11 = {
+	icon = economy_positive
+	monthly_income = 12
+}
+
+men_meneltarma_income_character_modifier_12 = {
+	icon = economy_positive
+	monthly_income = 14
+}
+
+men_meneltarma_income_character_modifier_13 = {
+	icon = economy_positive
+	monthly_income = 16
+}

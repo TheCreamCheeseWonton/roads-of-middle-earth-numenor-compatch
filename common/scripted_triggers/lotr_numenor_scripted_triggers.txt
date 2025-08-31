@@ -1,0 +1,433 @@
+﻿### Show Port Decision Triggers ###
+
+show_port_numenor_trigger = {
+	
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_sunthure_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_lond_daer_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_annon_druin_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_serelond_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_dol_amroth_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_pelargir_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_osgiliath_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_linhir_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_ethir_harnen_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_ramlond_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_umbar_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_hyarmendacil_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_sornomar_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_ciryandur_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_ishtra_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_urezayaneth_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_korlea_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_kadar_an_kharadun_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_gilmileth_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_kadar_abar_narik_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_inyaloni_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_inzilloni_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_mispir_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_urulomik_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_arpel_port_decision
+	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_sarul_port_decision
+	}
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_numenor_port_decision
+		}
+	}
+}
+
+show_port_sunthure_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_sunthure_port_decision
+		}
+	}
+	province:4579  = {
+		NOT = { has_province_modifier = suthure_upgraded_port_province_modifier } 
+	}
+}
+show_port_lond_daer_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_lond_daer_port_decision
+		}
+	}
+	province:566 = {
+		NOT = { has_province_modifier = lond_daer_upgraded_port_province_modifier  } 
+	}
+}
+show_port_annon_druin_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_annon_druin_port_decision
+		}
+	}
+	province:441 = {
+		NOT = { has_province_modifier = annon_druin_upgraded_port_province_modifier} 
+	}
+}
+show_port_serelond_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_serelond_port_decision
+		}
+	}
+	province:433 = {
+		NOT = { has_province_modifier = serelond_upgraded_port_province_modifier} 
+	}
+}
+show_port_dol_amroth_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_dol_amroth_port_decision
+		}
+	}
+	province:315 = {
+		NOT = { has_province_modifier = dol_amroth_upgraded_port_province_modifier} 
+	}
+}
+show_port_pelargir_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_pelargir_port_decision
+		}
+	}
+	province:264 = {
+		NOT = { has_province_modifier = pelargir_upgraded_port_province_modifier} 
+	}
+}
+show_port_osgiliath_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_osgiliath_port_decision
+		}
+	}
+	OR = { 
+		province:202 = {
+			NOT = { has_province_modifier = osgiliath_upgraded_port_province_modifier } 
+		}
+		province:203 = {
+			NOT = { has_province_modifier = osgiliath_upgraded_port_province_modifier } 
+		}
+	}
+}
+show_port_linhir_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_linhir_port_decision
+		}
+	}
+	province:350 = {
+		NOT = { has_province_modifier = linhir_upgraded_port_province_modifier } 
+	}
+}
+show_port_ethir_harnen_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_ethir_harnen_port_decision
+		}
+	}
+	province:935 = {
+		NOT = { has_province_modifier = ethir_harnen_upgraded_port_province_modifier } 
+	}
+}
+show_port_ramlond_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_ramlond_port_decision
+		}
+	}
+	province:903 = {
+		NOT = { has_province_modifier = ramlond_upgraded_port_province_modifier } 
+	}
+}
+show_port_umbar_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_umbar_port_decision
+		}
+	}
+	province:819 = {
+		NOT = { has_province_modifier = umbar_upgraded_port_province_modifier } 
+	}
+}
+show_port_hyarmendacil_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_hyarmendacil_port_decision
+		}
+	}
+	province:1450 = {
+		NOT = { has_province_modifier = hyarmendacil_upgraded_port_province_modifier } 
+	}
+}
+show_port_sornomar_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_sornomar_port_decision
+		}
+	}
+	province:1481 = {
+		NOT = { has_province_modifier = sornomar_upgraded_port_province_modifier } 
+	}
+}
+show_port_ciryandur_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_ciryandur_port_decision
+		}
+	}
+	province:1542 = {
+		NOT = { has_province_modifier = ciryandur_upgraded_port_province_modifier } 
+	}
+}
+show_port_ishtra_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_ishtra_port_decision
+		}
+	}
+	province:3013 = {
+		NOT = { has_province_modifier = ishtra_upgraded_port_province_modifier } 
+	}
+}
+show_port_urezayaneth_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_urezayaneth_port_decision
+		}
+	}
+	province:1731 = {
+		NOT = { has_province_modifier = urezayaneth_upgraded_port_province_modifier } 
+	}
+}
+show_port_korlea_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_korlea_port_decision
+		}
+	}
+	province:1644 = {
+		NOT = { has_province_modifier = korlea_upgraded_port_province_modifier } 
+	}
+}
+show_port_kadar_an_kharadun_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_kadar_an_kharadun_port_decision
+		}
+	}
+	province:2513 = {
+		NOT = { has_province_modifier = kadar_an_kharadun_upgraded_port_province_modifier  } 
+	}
+}
+show_port_gilmileth_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_gilmileth_port_decision
+		}
+	}
+	province:5401 = {
+		NOT = { has_province_modifier = gilmileth_upgraded_port_province_modifier  } 
+	}
+}
+show_port_kadar_abar_narik_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_kadar_abar_narik_port_decision
+		}
+	}
+	province:6609 = {
+		NOT = { has_province_modifier = kadar_abar_narik_upgraded_port_province_modifier  } 
+	}
+}
+show_port_inyaloni_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_inyaloni_port_decision
+		}
+	}
+	province:6645 = {
+		NOT = { has_province_modifier = inyaloni_upgraded_port_province_modifier  } 
+	}
+}
+show_port_inzilloni_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_inzilloni_port_decision
+		}
+	}
+	province:5497 = {
+		NOT = { has_province_modifier = inzilloni_upgraded_port_province_modifier  } 
+	}
+}
+show_port_mispir_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_mispir_port_decision
+		}
+	}
+	province:5317 = {
+		NOT = { has_province_modifier = mispir_upgraded_port_province_modifier  } 
+	}
+}
+show_port_urulomik_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_urulomik_port_decision
+		}
+	}
+	province:5459 = {
+		NOT = { has_province_modifier = urulomik_upgraded_port_province_modifier  } 
+	}
+}
+show_port_sarul_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_sarul_port_decision
+		}
+	}
+	province:5832 = {
+		NOT = { has_province_modifier = sarul_upgraded_port_province_modifier  } 
+	}
+}
+show_port_arpel_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_arpel_port_decision
+		}
+	}
+	province:5411 = {
+		NOT = { has_province_modifier = arpel_upgraded_port_province_modifier  } 
+	}
+}
