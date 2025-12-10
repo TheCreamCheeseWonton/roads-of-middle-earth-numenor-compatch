@@ -3,7 +3,7 @@
 men_meneltarma_province_modifier = {
 	icon = economy_positive
 	monthly_income = 0.1
-	development_growth = 0.1
+	development_growth = 0.05
 }
 
 men_meneltarma_income_character_modifier_1 = {
