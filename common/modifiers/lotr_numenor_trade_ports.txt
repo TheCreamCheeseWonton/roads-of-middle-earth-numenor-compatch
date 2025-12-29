@@ -3,52 +3,52 @@
 romenna_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.5
-	development_growth = 0.75
+	development_growth_factor = 0.4
 }
 nindamos_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 eldalonde_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 andunie_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 erelonde_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 0.8
-	development_growth = 0.4
+	development_growth_factor = 0.2
 }
 ciryande_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 opele_ancalimonva_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 0.8
-	development_growth = 0.4
+	development_growth_factor = 0.2
 }
 anariova_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 0.5
-	development_growth = 0.25
+	development_growth_factor = 0.10
 }
 formenore_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 0.5
-	development_growth = 0.25
+	development_growth_factor = 0.10
 }
 athrad_elrova_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 0.5
-	development_growth = 0.25
+	development_growth_factor = 0.10
 }
 
 
@@ -56,57 +56,57 @@ athrad_elrova_port_province_modifier = {
 armenelos_trade_center_province_modifier = {
 	icon = compass_positive
 	monthly_income = 6.0
-	development_growth = 2.5
+	development_growth_factor = 1.0
 }
 romenna_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 6.0
-	development_growth = 2.5
+	development_growth_factor = 1.0
 }
 nindamos_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 3.0
-	development_growth = 1.5
+	development_growth_factor = 0.75
 }
 eldalonde_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 3.0
-	development_growth = 1.5
+	development_growth_factor = 0.75
 }
 andunie_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 3.0
-	development_growth = 1.5
+	development_growth_factor = 0.75
 }
 erelonde_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.5
-	development_growth = 1.25
+	development_growth_factor = 0.6
 }
 ciryande_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 3.0
-	development_growth = 1.5
+	development_growth_factor = 0.75
 }
 opele_ancalimonva_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.5
-	development_growth = 1.25
+	development_growth_factor = 0.6
 }
 anariova_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.5
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 formenore_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.5
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 athrad_elrova_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.5
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 
 ### Upgraded Base Ports
@@ -114,130 +114,136 @@ athrad_elrova_upgraded_port_province_modifier = {
 osgiliath_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 pelargir_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 umbar_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 lond_daer_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 urezayaneth_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 kadar_an_kharadun_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 dol_amroth_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 suthure_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 inzilloni_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 mispir_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 korlea_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 0.5
 }
 ciryandur_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 sornomar_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 ethir_harnen_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 hyarmendacil_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 serelond_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 linhir_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 ramlond_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 urulomik_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 arpel_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 sarul_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.6
-	development_growth = 0.8
+	development_growth_factor = 0.4
 }
 annon_druin_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 ishtra_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 gilmileth_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.25
 }
 kadar_abar_narik_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 2.0
-	development_growth = 1.0
+	development_growth_factor = 1.0
 }
 inyaloni_upgraded_port_province_modifier = {
 	icon = compass_positive
 	monthly_income = 1.0
-	development_growth = 0.5
+	development_growth_factor = 0.5
 }
+tharbad_upgraded_port_province_modifier = {
+	icon = compass_positive
+	monthly_income = 1.6
+	development_growth_factor = 0.4
+}
+	

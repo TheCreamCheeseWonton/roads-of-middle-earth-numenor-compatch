@@ -4,7 +4,7 @@
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_adunai_01.dds"
 	}
-	decision_group_type = Numenor_major
+	decision_group_type = realms_in_exile_minor
 	selection_tooltip = decision_restore_numenorean_trade_routes_tooltip
 	desc = decision_restore_numenorean_trade_routes_desc
 	confirm_text = decision_restore_numenorean_trade_routes_confirm
@@ -43,11 +43,11 @@
 			show_port_urulomik_trigger = yes
 			show_port_sarul_trigger = yes
 			show_port_arpel_trigger = yes
+			show_port_tharbad_trigger = yes
 		}
 	}
 	
 	is_valid = {
-		lotr_has_numenorean_culture_trigger = yes
 		prestige_level >= high_prestige_level
 		OR = {
 			trigger_if = { # Sunthure
@@ -153,6 +153,10 @@
 			trigger_if = { # Inyalôni
 				limit = { show_port_inyaloni_trigger = yes }
 				completely_controls = title:k_anarike
+			}
+			trigger_if = { # Tharbad
+				limit = { show_port_tharbad_trigger = yes }
+				completely_controls = title:d_minhiriath
 			}
 		}
 	}
@@ -537,6 +541,20 @@
 			is_shown = { show_port_inyaloni_trigger = yes }
 			is_valid = {
 				completely_controls = title:k_anarike
+			}
+			ai_chance = {
+				value = 100
+			}
+		}
+		
+		item = {	# Tharbad
+			value = restore_tharbad
+			current_description = decision_restore_numenorean_trade_routes.tt.tharbad_desc
+			localization = decision_restore_numenorean_trade_routes.tt.tharbad
+			icon = "gfx/interface/icons/message_feed/compass_light.dds"
+			is_shown = { show_port_tharbad_trigger = yes }
+			is_valid = {
+				completely_controls = title:d_minhiriath
 			}
 			ai_chance = {
 				value = 100
@@ -1000,6 +1018,23 @@
 				target = flag:reclaim_arpel_port_decision
 			}
 		}
+		else_if = {		# Tharbad
+			limit = {
+				scope:restore_tharbad = yes
+			}
+			custom_tooltip = restore_port_tharbad_decision
+			province:4537 = {
+				remove_province_modifier = tharbad_port_province_modifier  
+				add_province_modifier = tharbad_upgraded_port_province_modifier 
+			}
+			title:k_cardolan = {
+				change_development_level = 2
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_tharbad_port_decision
+			}
+		}
 		else = {
 			
 		}
@@ -1038,7 +1073,7 @@ decision_upgrade_numenor_ports = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_adunai_01.dds"
 	}
-	decision_group_type = Numenor_major
+	decision_group_type = realms_in_exile_minor
 
 	# Shown
 	is_shown = {

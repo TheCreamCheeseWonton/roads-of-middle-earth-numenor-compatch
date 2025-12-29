@@ -98,6 +98,8 @@
  mispir_upgraded_port_province_modifier_desc:0 "Mispír, after regaining contact with Númenor, and once again reuniting with its ancient homeland, has grown massively in wealth and power. Once again thousands of vessels enter her ports, bringing trade, commerce, and tourism from Númenor, and the rest of the Empire. The Harbor which once was greatly diminished, has now been restored to its former glory. Anew, the seas are brimming with trade to the rest of Middle Earth and the Isle of Númenor."
  inzilloni_upgraded_port_province_modifier:0 "The Númenórean Port of Inzillôni - Númenor Regained"
  inzilloni_upgraded_port_province_modifier_desc:0 "Inzillôni, after regaining contact with Númenor, and once again reuniting with its ancient homeland, has grown massively in wealth and power. Once again thousands of vessels enter her ports, bringing trade, commerce, and tourism from Númenor, and the rest of the Empire. The Harbor which once was greatly diminished, has now been restored to its former glory. Anew, the seas are brimming with trade to the rest of Middle Earth and the Isle of Númenor."
+ tharbad_upgraded_port_province_modifier:0 "The Númenórean Port of Tharbad - Númenor Regained"
+ tharbad_upgraded_port_province_modifier_desc:0 "Tharbad, after regaining contact with Númenor, and once again reuniting with its ancient homeland, has grown massively in wealth and power. Once again thousands of vessels enter her ports, bringing trade, commerce, and tourism from Númenor, and the rest of the Empire. The Harbor which once was greatly diminished, has now been restored to its former glory. Anew, the seas are brimming with trade to the rest of Middle Earth and the Isle of Númenor."
 
  ###Roads###
 
@@ -192,6 +194,8 @@
  decision_restore_numenorean_trade_routes.tt.kadar_abar_narik_desc:0 "Kadar Abar-narîk was once a great port of Númenor, enriching both Middle Earth and Númenor with its trade and commerce. Now that the city is back within our control, we can begin trade with Kadar Abar-narîk once again."
  decision_restore_numenorean_trade_routes.tt.inyaloni:0 "Restore Trade With the Port of Inyalôni"
  decision_restore_numenorean_trade_routes.tt.inyaloni_desc:0 "Inyalôni was once a great port of Númenor, enriching both Middle Earth and Númenor with its trade and commerce. Now that the city is back within our control, we can begin trade with Inyalôni once again."
+ decision_restore_numenorean_trade_routes.tt.tharbad:0 "Restore Trade With the Port of Tharbad"
+ decision_restore_numenorean_trade_routes.tt.tharbad_desc:0 "Tharbad was once a great port of Númenor, enriching both Middle Earth and Númenor with its trade and commerce. Now that the city is back within our control, we can begin trade with Tharbad once again."
 
  reintegrate_port_fallback_effect.tt:0 "No Ports can be Restored"
  restore_port_sunthure_decision:0 "Restore Trade With the Port of Mistalondë"
@@ -220,6 +224,7 @@
  restore_port_urulomik_decision:0 "Restore Trade With the Port of Ûrulômîk"
  restore_port_sarul_decision:0 "Restore Trade With the Port of Sarûl"
  restore_port_arpel_decision:0 "Restore Trade With the Port of Lôni Hîsekhôr"
+ restore_port_tharbad_decision:0 "Restore Trade With the Port of Tharbad"
 
  restore_port_sunthure_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
  restore_lond_daer_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
@@ -247,6 +252,7 @@
  restore_sarul_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
  restore_arpel_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
  restore_gilmileth_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
+ restore_tharbad_tooltip:0 "Replaces the 'Númenor Lost' province modifier with the 'Númenor Regained' province modifier, which is twice as powerful."
 
  decision_upgrade_numenor_ports:0 "Resore the Great Ports of Númenor"
  decision_upgrade_numenor_ports_desc:0 "With all of our old Colonial Empire once again within our hands, the glory and memory of old Númenor restored, and trade once again flowing to the ports of the Isle, the decimated ports of Númenor will not suffice. Having been partially abandoned since the [akallabeth|E], much of Númenor's trade infrastructure has been left to decay, seeing little reconstruction or maintenance. This must be rectified, and we must restore our harbors to match, or exceed, the grandeur of old Númenor."
