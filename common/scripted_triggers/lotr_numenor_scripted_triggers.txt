@@ -110,6 +110,10 @@ show_port_numenor_trigger = {
 		name = unavailable_unique_decisions
 		target = flag:reclaim_tharbad_port_decision
 	}
+	is_target_in_global_variable_list = {
+		name = unavailable_unique_decisions
+		target = flag:reclaim_pharasphurus_port_decision
+	}
 	NOT = {
 		is_target_in_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -445,5 +449,18 @@ show_port_tharbad_trigger = {
 	}
 	province:4537 = {
 		NOT = { has_province_modifier = tharbad_upgraded_port_province_modifier  } 
+	}
+}
+
+show_port_pharasphurus_trigger = {
+	
+	NOT = {
+		is_target_in_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:reclaim_pharasphurus_port_decision
+		}
+	}
+	province:5779 = {
+		NOT = { has_province_modifier = pharasphurus_upgraded_port_province_modifier  } 
 	}
 }

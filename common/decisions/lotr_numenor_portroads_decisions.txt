@@ -4,7 +4,7 @@
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_adunai_01.dds"
 	}
-	decision_group_type = realms_in_exile_minor
+	decision_group_type = raods_of_middle_earth
 	selection_tooltip = decision_restore_numenorean_trade_routes_tooltip
 	desc = decision_restore_numenorean_trade_routes_desc
 	confirm_text = decision_restore_numenorean_trade_routes_confirm
@@ -14,7 +14,7 @@
 		highest_held_title_tier = tier_empire
 		OR = {
 			has_title = title:e_numenor
-			has_title = title:e_numenor_in_exile
+			has_title = title:h_numenor_in_exile
 		}
 		OR = { # Ensures at least one option is still available
 			show_port_sunthure_trigger = yes
@@ -44,6 +44,7 @@
 			show_port_sarul_trigger = yes
 			show_port_arpel_trigger = yes
 			show_port_tharbad_trigger = yes
+			show_port_pharasphurus_trigger = yes
 		}
 	}
 	
@@ -157,6 +158,10 @@
 			trigger_if = { # Tharbad
 				limit = { show_port_tharbad_trigger = yes }
 				completely_controls = title:d_minhiriath
+			}
+			trigger_if = { # Pharasphurus
+				limit = { show_port_pharasphurus_trigger = yes }
+				completely_controls = title:d_modune
 			}
 		}
 	}
@@ -555,6 +560,20 @@
 			is_shown = { show_port_tharbad_trigger = yes }
 			is_valid = {
 				completely_controls = title:d_minhiriath
+			}
+			ai_chance = {
+				value = 100
+			}
+		}
+		
+		item = {	# Pharasphurus
+			value = restore_pharasphurus
+			current_description = decision_restore_numenorean_trade_routes.tt.pharasphurus_desc
+			localization = decision_restore_numenorean_trade_routes.tt.pharasphurus
+			icon = "gfx/interface/icons/message_feed/compass_light.dds"
+			is_shown = { show_port_pharasphurus_trigger = yes }
+			is_valid = {
+				completely_controls = title:d_modune
 			}
 			ai_chance = {
 				value = 100
@@ -1035,6 +1054,23 @@
 				target = flag:reclaim_tharbad_port_decision
 			}
 		}
+		else_if = {		# Pharasphurus
+			limit = {
+				scope:restore_pharasphurus = yes
+			}
+			custom_tooltip = restore_port_pharasphuru_decision
+			province:5779 = {
+				remove_province_modifier = pharasphurus_port_province_modifier  
+				add_province_modifier = pharasphurus_upgraded_port_province_modifier 
+			}
+			title:k_usakan = {
+				change_development_level = 2
+			}
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:reclaim_pharasphurus_port_decision
+			}
+		}
 		else = {
 			
 		}
@@ -1073,7 +1109,7 @@ decision_upgrade_numenor_ports = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_adunai_01.dds"
 	}
-	decision_group_type = realms_in_exile_minor
+	decision_group_type = raods_of_middle_earth
 
 	# Shown
 	is_shown = {
@@ -1081,7 +1117,7 @@ decision_upgrade_numenor_ports = {
 		highest_held_title_tier = tier_empire
 		OR = {
 			has_title = title:e_numenor
-			has_title = title:e_numenor_in_exile
+			has_title = title:h_numenor_in_exile
 		}
 		show_port_numenor_trigger = yes
 	}
