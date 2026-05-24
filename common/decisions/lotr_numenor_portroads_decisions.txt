@@ -11,7 +11,7 @@
 	
 	is_shown = {
 		is_landed = yes
-		highest_held_title_tier = tier_empire
+		highest_held_title_tier >= tier_empire
 		OR = {
 			has_title = title:e_numenor
 			has_title = title:h_numenor_in_exile
@@ -1114,7 +1114,7 @@ decision_upgrade_numenor_ports = {
 	# Shown
 	is_shown = {
 		is_landed = yes
-		highest_held_title_tier = tier_empire
+		highest_held_title_tier >= tier_empire
 		OR = {
 			has_title = title:e_numenor
 			has_title = title:h_numenor_in_exile
