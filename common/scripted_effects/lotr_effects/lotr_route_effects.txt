@@ -1329,9 +1329,6 @@ define_trade_routes = {
 	province:4399 = {
 		add_province_modifier = east_road_province_modifier
 	}
-	province:4338 = {
-		add_province_modifier = east_road_province_modifier
-	}
 	province:4337 = {
 		add_province_modifier = east_road_province_modifier
 	}
